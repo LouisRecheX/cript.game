@@ -41,7 +41,7 @@ function startGame() {
 
   if (!gameLoaded) {
     gameArea.innerHTML = `
-      <iframe src="jogo/index.html"
+      <iframe src="game/index.html"
               style="width:100%; height:100%; border:none;"></iframe>
     `;
     gameLoaded = true;
